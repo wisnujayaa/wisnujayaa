@@ -1,0 +1,32 @@
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "17 0 * * *"   # every day 00:17 UTC (07:17 WIB)
+  workflow_dispatch:        # lets you run it by hand from the Actions tab
+  push:
+    branches: [main]        # also redraw whenever the profile changes
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Draw the snake from the contribution graph
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Publish the SVGs to the "output" branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0  # same version snk's author uses
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
