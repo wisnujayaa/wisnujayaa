@@ -3,14 +3,14 @@
 </p>
 
 I like taking things apart down to the **why**: the formula behind a model, the scale behind a picture of the sky.
-Right now I'm learning machine learning the honest way: by building one real project end to end and reporting what actually works.
+Right now I'm learning machine learning the honest way: by building one real project end to end and reporting what actually works, even when the answer is "not much yet".
 
 ### 🔭 What I'm building
 
 | Project | What it is | Status |
 |---|---|---|
-| **[Food Price Early Warning](https://github.com/wisnujayaa/food-price-early-warning)** | Forecasting price spikes of chili, shallots & rice in Indonesia 2–4 weeks ahead, from Bank Indonesia's PIHPS data. Weekly predictions are committed *before* the outcome is known. | 🟡 in progress |
-| **[Cosmic Ladder](https://github.com/wisnujayaa/cosmic-ladder)** | An interactive zoom from Earth to the edge of the observable universe, with an explanation at every rung. | 🟡 in progress |
+| **[Food Price Early Warning](https://github.com/wisnujayaa/food-price-early-warning)** | Can we warn 4–8 weeks ahead that curly red chili in Depok is about to spike? Rolling-origin backtests with purging, lift vs. chance, and an append-only log of predictions committed *before* each target week. Honest so far: the signal is weak. | 🟢 live predictions |
+| **[Cosmic Ladder](https://github.com/wisnujayaa/cosmic-ladder)** | An interactive 3D journey from Earth to the edge of the observable universe, with real orbital data, narration and a quiz (EN/ID). [Live →](https://wisnujayaa.github.io/cosmic-ladder/) | 🟢 live |
 | **[Ruang Nalar](https://github.com/wisnujayaa/ruang-nalar)** | An e-learning site that started as a math (inequalities) course for my younger sibling, with classes and a discussion forum. [Live →](https://ruang-nalar.pages.dev) | 🟢 live |
 
 ### 🌱 Open source
@@ -23,6 +23,7 @@ Right now I'm learning machine learning the honest way: by building one real pro
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 ![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white)
