@@ -14,10 +14,6 @@ Right now I'm learning machine learning the honest way: by building one real pro
 | **[Ruang Nalar](https://github.com/wisnujayaa/ruang-nalar)** | An e-learning site that started as a math (inequalities) course for my younger sibling, with classes and a discussion forum. [Live →](https://ruang-nalar.pages.dev) | 🟢 live |
 | **AI Task Prioritizer** | Which task should I do first? A Random Forest that ranks a to-do list with a 0–100 score and explains each call with SHAP. The data is synthetic with a known hidden rule, so the explanations can be checked against ground truth. A cost-sensitive decision layer cuts "urgent task marked as routine" errors from 19% to 9%. Honest note: plain logistic regression beats the forest (0.85 vs 0.73). | 🟡 in progress |
 
-### 🌱 Open source
-
-- [OpenSID/OpenDK #1776](https://github.com/OpenSID/OpenDK/pull/1776): continuing a rate-limiting fix for OpenDK, an open-source system used by Indonesian sub-district governments.
-
 ### 🛠 Tools I actually use
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
